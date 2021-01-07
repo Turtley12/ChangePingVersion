@@ -1,0 +1,13 @@
+###################################################
+#  ChangePingVersion by Turtley12                 #
+#                                                 #
+#  This is where you set the version to display.  #
+#  it can be any combination of text characters   #
+###################################################
+
+# version string to send to the client
+version: "MC 1.16"
+
+
+#do not touch below!
+config-version: 1

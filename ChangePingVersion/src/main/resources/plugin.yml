@@ -1,0 +1,5 @@
+name: ChangePingVersion
+main: io.github.turtley12.changepingversion.Main
+author: Turtley12
+version: 0.0.1-SNAPSHOT
+api-version: 1.16
