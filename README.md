@@ -1,4 +1,4 @@
-![Release](https://img.shields.io/github/v/release/Turtley12/ChangePingVersion)   ![License](https://img.shields.io/github/license/Turtley12/ChangePingVersion)   ![Downloads](https://img.shields.io/github/downloads/Turtley12/ChangePingVersion/total)
+[![Release](https://img.shields.io/github/v/release/Turtley12/ChangePingVersion)](https://github.com/turtley12/TurtleJoin/releases)   [![License](https://img.shields.io/github/license/Turtley12/ChangePingVersion)](https://github.com/Turtley12/ChangePingVersion/blob/main/LICENSE)   [![Downloads](https://img.shields.io/github/downloads/Turtley12/ChangePingVersion/total)](https://github.com/turtley12/TurtleJoin/releases) 
 # ChangePingVersion
 Minecraft plugin for paper servers that modifies the server list version sent to the client.
 
