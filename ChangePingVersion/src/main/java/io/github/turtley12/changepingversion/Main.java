@@ -11,7 +11,7 @@ public final class Main extends JavaPlugin {
 		//on enable
 		
 		//bstats
-        int pluginId = 9943; // <-- Replace with the id of your plugin!
+        int pluginId = 9943;
         Metrics metrics = new Metrics(this, pluginId);
 		
 		//save default config file from jar if it doesn't exist
