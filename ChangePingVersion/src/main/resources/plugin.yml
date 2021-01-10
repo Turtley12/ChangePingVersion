@@ -3,3 +3,8 @@ main: io.github.turtley12.changepingversion.Main
 author: Turtley12
 version: 1.1-SNAPSHOT
 api-version: 1.16
+
+permissions:
+  changepingversion.update:
+    default: op
+    description: Players with this permission will get notified if a new update is available
