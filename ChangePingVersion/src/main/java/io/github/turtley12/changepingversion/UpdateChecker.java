@@ -44,6 +44,8 @@ public class UpdateChecker {
 			
 				    new_version = jobj[0].get("tag_name").toString();
 				    
+				    new_version = new_version.replace("\"", "");
+				    
 				    if (UpdateChecker.getUpdateAvailable()) {
 						Bukkit.getLogger().info("ChangePingVersion Update " + UpdateChecker.getNewVersion().replace("\"", "") + " is available");
 						Bukkit.getLogger().info("You have version " + Main.getVersion());
