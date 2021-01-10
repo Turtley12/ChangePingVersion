@@ -36,9 +36,9 @@ public final class Main extends JavaPlugin {
 		plugin_version = pdf.getVersion(); //Gets the version
 		
 		//enable message
-        if (metrics.isEnabled()) {
-        	getLogger().info("Enabled metrics. you can turn them off in /plugins/bStats/config.yml");
-        }
+		if (metrics.isEnabled()) {
+			getLogger().info("Enabled metrics. you can turn them off in /plugins/bStats/config.yml");
+		}
 		getLogger().info("ChangePingVersion enabled!");
 		
 	}
