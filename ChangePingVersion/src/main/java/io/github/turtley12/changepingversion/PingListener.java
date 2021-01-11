@@ -12,7 +12,7 @@ public class PingListener implements Listener {
 		String version_message = Main.getVersionMessage();
 		
 		//set version to variable
-		event.setVersion(version_message);
+		event.setVersion(Main.format(version_message));
 	}
 
 }

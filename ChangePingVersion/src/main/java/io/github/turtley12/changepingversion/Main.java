@@ -1,6 +1,7 @@
 package io.github.turtley12.changepingversion;
 
 import org.bstats.bukkit.Metrics;
+import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -57,6 +58,9 @@ public final class Main extends JavaPlugin {
 	public static String getVersion() {
 		String plugin_version_v = "v" + plugin_version;
 		return plugin_version_v;
+	}
+	public static String format (String str) {
+		return ChatColor.translateAlternateColorCodes('&', str);
 	}
 
 
