@@ -68,7 +68,7 @@ public class UpdateChecker {
     }
     
     public static boolean getUpdateAvailable() {
-    	if (new_version != Main.getVersion() && new_version != null)
+    	if (!new_version.equals(Main.getVersion()) && !new_version.equals(null))
     		return true;
 		return false;
     }
